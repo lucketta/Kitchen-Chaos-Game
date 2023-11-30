@@ -715,6 +715,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917489745 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -2963862632354295115, guid: f948a08b3ba198e4588124701bb88c27,
+    type: 3}
+  m_PrefabInstance: {fileID: 1230038036}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3b5e66e8f49bcb48992a81ffd31e3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1091491629
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,6 +946,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2963862632354295115, guid: f948a08b3ba198e4588124701bb88c27,
+        type: 3}
+      propertyPath: testing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2963862632354295115, guid: f948a08b3ba198e4588124701bb88c27,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b0ae1b30dbc3cb458104157269b167b,
+        type: 2}
+    - target: {fileID: -2963862632354295115, guid: f948a08b3ba198e4588124701bb88c27,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 917489745}
     - target: {fileID: 1424357668416462829, guid: f948a08b3ba198e4588124701bb88c27,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1002,6 +1030,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2963862632354295115, guid: f948a08b3ba198e4588124701bb88c27,
+        type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2963862632354295115, guid: f948a08b3ba198e4588124701bb88c27,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 1077375bf743210428658d7a71956582,
+        type: 2}
+    - target: {fileID: -2963862632354295115, guid: f948a08b3ba198e4588124701bb88c27,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 917489745}
     - target: {fileID: 1424357668416462829, guid: f948a08b3ba198e4588124701bb88c27,
         type: 3}
       propertyPath: m_LocalPosition.x
