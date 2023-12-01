@@ -14,6 +14,7 @@ public class ContainerCounterVisual : MonoBehaviour {
     }
 
     private void Start() {
+        // Listens for when player grabs something, play animation on counter
         containerCounter.OnPlayerGrabbedObject += ContainerCounter_OnPlayerGrabbedObject;
     }
 

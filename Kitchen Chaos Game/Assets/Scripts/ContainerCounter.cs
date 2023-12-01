@@ -14,6 +14,7 @@ public class ContainerCounter : BaseCounter {
             // Player is not carrying anything
             KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);
 
+            // Set Event when player grabs object so animation can be played
             OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
         }
     }
